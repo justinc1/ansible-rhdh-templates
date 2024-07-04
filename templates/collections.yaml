@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: collection-template
+  name: ansible-collection-template
   title: Create Ansible Collection Project
   description: Create a new starter collection Git project preconfigured with best practices.
   tags:
