@@ -22,9 +22,9 @@ spec:
         - collectionName
       properties:
         sourceControl:
-          title: Choose source control option
+          title: Select source control option
           type: string
-          description: Select the source control option
+          description: Select the source control option for your Ansible project.
           default: github.com
           enum:
             - github.com
