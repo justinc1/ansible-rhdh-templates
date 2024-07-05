@@ -95,7 +95,7 @@ spec:
           description: ${{ parameters.description }}
           collectionGroup: ${{ parameters.collectionGroup }}
           collectionName: ${{ parameters.collectionName }}
-          sourceControl: '${{ parameters.sourceControl }}'
+          sourceControl: ${{ parameters.sourceControl }}
           devSpacesBaseUrl: ${{ steps.ansible.output.devSpacesBaseUrl }}
 
     - id: publish
@@ -103,7 +103,7 @@ spec:
       action: publish:github
       input:
         allowedHosts:
-          - github.com
+          - ${{ parameters.sourceControl }}
         description: ${{ parameters.description }}
         repoUrl: ${{ steps.ansible.output.repoUrl }}
         repoVisibility: 'public'
