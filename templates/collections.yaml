@@ -46,10 +46,14 @@ spec:
           title: Collection namespace
           description: The new collection project's namespace. For example, “my-new-collection-namespace”.
           type: string
+          minLength: 2
+          pattern: '^[a-z][a-z0-9_]+$'
         collectionName:
           title: Collection name
           description: The new collection project's name. For example, “my-new-collection-name”.
           type: string
+          minLength: 2
+          pattern: '^[a-z][a-z0-9_]+$'
         owner:
           title: Catalog Owner name
           type: string
