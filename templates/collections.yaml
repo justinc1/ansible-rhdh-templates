@@ -34,24 +34,29 @@ spec:
           title: Source code repository organization name or username
           type: string
           description: The organization name or username of your source code repository. For example, “my-github-username”.
+          maxLength: 100
         repoName:
           title: Collection repository name
           description: The name of the new collection project repository. For example, “my-new-collection-repo”.
           type: string
+          maxLength: 100
         description:
           title: Collection description
           type: string
           description: Describe the collection and its purpose to help other users understand what to use it for.
+          maxLength: 350
         collectionGroup:
           title: Collection namespace
           description: The new collection project's namespace. For example, “my-new-collection-namespace”.
           type: string
+          maxLength: 63
           minLength: 2
           pattern: '^[a-z][a-z0-9_]+$'
         collectionName:
           title: Collection name
           description: The new collection project's name. For example, “my-new-collection-name”.
           type: string
+          maxLength: 63
           minLength: 2
           pattern: '^[a-z][a-z0-9_]+$'
         owner:
