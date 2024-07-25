@@ -47,14 +47,14 @@ spec:
           maxLength: 350
         collectionGroup:
           title: Playbook project's collection namespace
-          description: The collection namespace in your new playbook repository. For example, “my-new-collection-namespace”.
+          description: The collection namespace in your new playbook repository. For example, “my_new_collection_namespace”.
           type: string
           maxLength: 63
           minLength: 2
           pattern: '^[a-z][a-z0-9_]+$'
         collectionName:
           title: Playbook project's collection name
-          description: The collection name in your new playbook repository. For example, “my-new-collection-name”.
+          description: The collection name in your new playbook repository. For example, “my_new_collection_name”.
           type: string
           maxLength: 63
           minLength: 2
