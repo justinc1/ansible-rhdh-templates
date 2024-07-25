@@ -47,14 +47,14 @@ spec:
           maxLength: 350
         collectionGroup:
           title: Collection namespace
-          description: The new collection project's namespace. For example, “my-new-collection-namespace”.
+          description: The new collection project's namespace. For example, “my_new_collection_namespace”.
           type: string
           maxLength: 63
           minLength: 2
           pattern: '^[a-z][a-z0-9_]+$'
         collectionName:
           title: Collection name
-          description: The new collection project's name. For example, “my-new-collection-name”.
+          description: The new collection project's name. For example, “my_new_collection_name”.
           type: string
           maxLength: 63
           minLength: 2
