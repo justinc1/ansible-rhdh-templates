@@ -40,6 +40,7 @@ spec:
           description: The name of the new collection project repository. For example, “my-new-collection-repo”.
           type: string
           maxLength: 100
+          pattern: '^([a-zA-Z][a-zA-Z0-9_]*)(-[a-zA-Z0-9_]+)*$'
         description:
           title: Collection description
           type: string

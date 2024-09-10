@@ -40,6 +40,7 @@ spec:
           description: The name of the new playbook project repository. For example, “my-new-playbook-repo”.
           type: string
           maxLength: 100
+          pattern: '^([a-zA-Z][a-zA-Z0-9_]*)(-[a-zA-Z0-9_]+)*$'
         description:
           title: Playbook description
           type: string
