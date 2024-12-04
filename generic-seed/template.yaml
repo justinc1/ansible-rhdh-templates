@@ -51,13 +51,13 @@ spec:
           ui:help: 'Source control URL: gitSourceControlUrlHelp'
           ui:options:
             rows: 5
-          default: https://github.com/justinc1/seedseed
+          default: https://github.com/ansible/ansible-pattern-loader
         scmBranch:
           title: Source control branch/tag/commit
           type: string
           ui:options:
             rows: 5
-          default: portal_mvp
+          default: main
           ui:help: 'Branch to checkout. In addition to branches, you can input tags, commit hashes, and arbitrary refs. Some commit hashes and refs may not be available unless you also provide a custom refspec.'
     - title: Template data
       description: Provide template data
@@ -110,7 +110,6 @@ spec:
           type: string
           ui:options:
             rows: 5
-          # default: https://10.44.17.180
         aapUserName:
           title: AAP username
           type: string
@@ -123,7 +122,6 @@ spec:
           ui:field: Secret
           ui:options:
             rows: 5
-          # default: adminpg
         aapValidateCerts:
           title: AAP validate certs
           type: boolean
