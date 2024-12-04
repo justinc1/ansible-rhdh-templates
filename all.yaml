@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: entities
-  description: A collection of all the catalog entities
+  name: ansible-content-templates
+  description: A collection of all Ansible templates
 spec:
   targets:
-    - ./generic-seed/template.yaml
+    - ./templates/playbooks.yaml
+    - ./templates/collections.yaml
