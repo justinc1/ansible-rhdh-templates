@@ -82,17 +82,17 @@ spec:
             type: object
             enum:
               - name: rhel
-                url: https://github.com/justinc1/experience_demo
-                version: feature-service-aae
+                url: https://github.com/ansible-collections/community.rhel_ops
+                version: main
               - name: network
-                url: https://github.com/rohitthakur2590/network.backup
+                url: https://github.com/redhat-cop/network.backup
                 version: main
               - name: windows
                 url: https://github.com/redhat-cop/infra.windows_ops
                 version: main
               - name: cloud
-                url: https://github.com/kcagran/cloud.aws_ops
-                version: backstage-templates
+                url: https://github.com/redhat-cop/cloud.aws_ops
+                version: main
             enumNames:
               - Rhel
               - Network
