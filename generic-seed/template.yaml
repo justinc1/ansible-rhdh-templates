@@ -96,8 +96,8 @@ spec:
               - name: cloud
                 # url: https://github.com/redhat-cop/cloud.aws_ops
                 # version: main
-                url: https://github.com/kcagran/cloud.aws_ops
-                version: backstage-templates
+                url: https://github.com/justinc1/cloud.aws_ops
+                version: backstage-templates-jc
             enumNames:
               - Rhel
               - Network
