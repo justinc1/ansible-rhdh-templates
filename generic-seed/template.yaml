@@ -84,12 +84,15 @@ spec:
               - name: rhel
                 url: https://github.com/ansible-collections/community.rhel_ops
                 version: main
+                # 458f7fdaa610790ab6c79d101396f437c242df3f OK
               - name: network
                 url: https://github.com/redhat-cop/network.backup
                 version: main
+                # c8b464d5da87049114a67e3a84b9c7bda589e49d - OK backup, restore not - privilege required
               - name: windows
                 url: https://github.com/redhat-cop/infra.windows_ops
                 version: main
+                # 243c2eed0c20e24d255458c0a45651a37271ea8d - OK, 2 patterns
               - name: cloud
                 url: https://github.com/redhat-cop/cloud.aws_ops
                 version: main
