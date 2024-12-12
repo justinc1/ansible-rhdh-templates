@@ -82,8 +82,8 @@ spec:
             type: object
             enum:
               - name: rhel
-                url: https://github.com/justinc1/community.rhel_ops
-                version: fixes
+                url: https://github.com/ansible-collections/community.rhel_ops
+                version: main
               - name: network
                 url: https://github.com/redhat-cop/network.backup
                 version: main
